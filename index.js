@@ -3,11 +3,11 @@ class Cat {
     this.name = name;
     this.sex = sex;
   }
+  speak(){
+      console.log(`${this.name} says meow!`);
+    }
 }
 
-Cat.speak(){
-    console.log(`${this.name} says meow!`);
-  }
 
 class Dog {
   constructor(name, sex){
