@@ -7,7 +7,7 @@ class Cat {
     console.log(`${this.name} says meow!`);
   }
 }
-cat.speak()
+Cat.speak()
 
 class Dog {
   constructor(name, sex){
